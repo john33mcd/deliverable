@@ -1,0 +1,43 @@
+#pageName {
+font-size: large;
+color: red;
+}
+
+ul{
+    list-style: none;
+    padding: 3%;
+    margin: auto;
+    font-size: large;
+}
+li{
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 1rem;
+    color:inherit;
+}
+
+li :hover{
+color:pink;
+background-color: green;
+text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+div{
+    background-color: red;
+}
+
+#one{
+    height: 300px;
+}
+
+#two{
+    height: 600px;
+}
+
