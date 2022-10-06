@@ -1,6 +1,11 @@
 #pageName {
 font-size: large;
 color: red;
+height: 35vh;
+}
+
+.text-center{
+    text-align: center;
 }
 
 ul{
