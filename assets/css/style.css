@@ -1,48 +1,116 @@
-#pageName {
-font-size: large;
-color: red;
-height: 35vh;
+/* -- font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+
+/* info from meyer reset */
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
 }
 
-.text-center{
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+
+/*meyer reset ends */
+
+
+/* --- header section --- */
+header {
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    position: fixed;
+    min-width: 100%;
+    opacity: 0.5;
+}
+
+/* p {
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+} */
+
+#mastHead {
+    background-image: url(../images/headerPhoto.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.site-titles {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+
+}
+
+.site-content {
+
+}
+
+.text-center {
     text-align: center;
 }
 
-ul{
+ul {
     list-style: none;
-    padding: 3%;
+    padding: 2%;
     margin: auto;
     font-size: large;
 }
-li{
+
+li {
     float: right;
 }
 
 a {
     display: block;
     padding: 1rem;
-    color:inherit;
+    color: inherit;
 }
 
-li :hover{
-color:pink;
-background-color: green;
-text-decoration: none;
+li :hover {
+    color: pink;
+    background-color: green;
+    text-decoration: none;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-div{
+div {
     background-color: red;
 }
 
-#one{
+#one {
     height: 300px;
 }
 
-#two{
+#two {
     height: 600px;
 }
 
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    height: 100px;
+    background-color: green;
+    min-width: 100%;
+}
+
+footer > a > :hover{
+    opacity: 0.7;
+}
