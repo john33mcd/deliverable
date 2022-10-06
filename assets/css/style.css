@@ -28,11 +28,8 @@ body {
 
 /* --- header section --- */
 header {
-    background-color: rebeccapurple;
     color: whitesmoke;
-    position: fixed;
     min-width: 100%;
-    opacity: 0.5;
 }
 
 /* p {
@@ -42,17 +39,24 @@ font-family: 'Roboto', sans-serif;
 } */
 
 #mastHead {
-    background-image: url(../images/headerPhoto.jpg);
     height: 80vh;
+    background-image: url(../images/headerPhoto.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+/* need to add padding and margins as below to h1, make a class or ID */
+h1{
+    margin: 40px;
+    padding: 50px;
+}
+
+
 
 .site-titles {
     font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
     color: white;
-
+    margin: 0 auto;
 }
 
 .site-content {
@@ -81,8 +85,7 @@ a {
 }
 
 li :hover {
-    color: pink;
-    background-color: green;
+    color: rgb(245, 8, 213);
     text-decoration: none;
 }
 
@@ -107,10 +110,16 @@ footer {
     flex-wrap: nowrap;
     justify-content:center;
     height: 100px;
-    background-color: green;
+    background-color: #780076;
     min-width: 100%;
 }
 
 footer > a > :hover{
     opacity: 0.7;
+}
+
+i{
+color:#009100;
+width: 50px;
+font-size: 40px;
 }
