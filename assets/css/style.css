@@ -27,6 +27,13 @@ body {
 
 
 /* --- header section --- */
+
+#logoArea{
+    background-image: url(../images/bottlesWall.jpg);
+    height: 30vh;
+    width: 100%;
+}
+
 header {
     color: whitesmoke;
     min-width: 100%;
@@ -38,7 +45,7 @@ font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
 } */
 
-#mastHead {
+#heroImage {
     height: 80vh;
     background-image: url(../images/headerPhoto.jpg);
     background-repeat: no-repeat;
@@ -106,12 +113,14 @@ div {
 }
 
 footer {
+    background-image: url(../images/headerPhoto.jpg);
     display: flex;
     flex-wrap: nowrap;
     justify-content:center;
     height: 100px;
     background-color: #780076;
     min-width: 100%;
+    background-repeat: no-repeat;
 }
 
 footer > a > :hover{
@@ -119,7 +128,7 @@ footer > a > :hover{
 }
 
 i{
-color:#009100;
+color:#fff4fd;
 width: 50px;
 font-size: 40px;
 }
